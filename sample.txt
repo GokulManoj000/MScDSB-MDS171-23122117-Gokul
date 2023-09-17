@@ -1,0 +1,8 @@
+Name      , Age  , Country   
+Alice     , 30   , USA       
+Bob       , 25   , Canada    
+Charlie   , 35   , UK        
+Name                , Age  , Country   
+Alice               , 30   , USA       
+Bob                 , 25   , Canada    
+Charlie             , 35   , UK        
