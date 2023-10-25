@@ -1,6 +1,6 @@
 class petStore():
     def __init__(self):
-        self.pets={"Dogs":[],"Cat":[],"Rabbit":[],"Parrot":[]}
+        self.pets={"Dog":[],"Cat":[],"Rabbit":[],"Parrot":[]}
 
     def storepet(self):
         petlist={}
@@ -22,6 +22,28 @@ class petStore():
         if flag==False:
             print("\nSelected pet is not available right now")
         print(self.pets)
+    
+    def petdetails(self):
+        details={}
+        type=input("Enter the species of pet:")
+        name=input("Enter name of pet:")
+        age=input("Enter the age:")
+        price=int(input("Enter the amount:"))
+        details["Name"]=name
+        details["Species"]=type
+        details["Age"]=age
+        details["Price"]=price
+        print(details)
+        self.pets.append(details)
+        print(self.pet)
+        file=open("Petstore.csv","a+")
+        file.write(str(self.pets)+"\n")
+        file.close()
+
+    def printdetails(self):
+        file=open("Petstore.csv","r+")
+        file.readlines()
+        file.close()
 
     def searchpet(self):
         search=input("Enter type of pet to be searched:").title()
@@ -34,12 +56,24 @@ class petStore():
                     for j in i.keys():
                         if breed==i[j]:
                             print("The available pet with given inputs:",i)
+                            global selected
+                            selected=i
+                            # global ind
+                            # ind=self.pets[key].index(i)
+                            # return (ind)
                             break
+                        
                 break
             else:
                 flag=False
         if flag==False:
             print("Searched pet no found")
+    
+    def sellpet(self):
+        p.searchpet()
+        selected.clear()
+        print(self.pets)
+
 
 p=petStore()
 a=True
@@ -50,10 +84,11 @@ while a==True:
         p.storepet()
     elif(choice==2):
         p.searchpet()
-    # elif(choice==3):
-
-    # elif(choice==4):
-        
+    elif(choice==3):
+        p.searchpet()
+        p.sellpet()
+    elif(choice==4):
+        p.printdetails()  
     elif(choice==5):
         a=False    
     else:
