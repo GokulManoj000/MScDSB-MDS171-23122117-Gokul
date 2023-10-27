@@ -18,7 +18,7 @@ Email: gokul.manoj@msds.chirstuniversity.in
 |8.|03-10-23|Lab 08|Write a program to implement Stack class| https://github.com/GokulManoj000/MScDSB-MDS171-23122117-Gokul/blob/1ec954449f99399cdc993197c1e93fd283e7f69b/Regular%20Labs/Lab08.py
 |9.|10-10-23|Lab 09|Write a program to create a pet store class| https://github.com/GokulManoj000/MScDSB-MDS171-23122117-Gokul/blob/1ec954449f99399cdc993197c1e93fd283e7f69b/Regular%20Labs/Lab09/Lab09.py
 |10.|26-10-23|Lab 10|Write a program to Python Class for managing student details and marks| https://github.com/GokulManoj000/MScDSB-MDS171-23122117-Gokul/blob/1ec954449f99399cdc993197c1e93fd283e7f69b/Regular%20Labs/Lab10.py
-|11.|19-09-23|CAC 1|Write a program for Player Performance Analysis| https://github.com/GokulManoj000/MScDSB-MDS171-23122117-Gokul/blob/507267971da13d94b07bd6019b2832e18f37c53b/Lab10.py
-|12.|25-10-23|CAC 2|Write a program for Analysing the Accomodation of Christ Students| https://github.com/GokulManoj000/MScDSB-MDS171-23122117-Gokul/blob/507267971da13d94b07bd6019b2832e18f37c53b/Lab10.py
+|11.|19-09-23|CAC 1|Write a program for Player Performance Analysis| https://github.com/GokulManoj000/MScDSB-MDS171-23122117-Gokul/blob/68785ef809503c44c21d0c5ef735d6b36ece51f2/CAC/CAC1/CAC1.ipynb
+|12.|25-10-23|CAC 2|Write a program for Analysing the Accomodation of Christ Students| https://github.com/GokulManoj000/MScDSB-MDS171-23122117-Gokul/blob/68785ef809503c44c21d0c5ef735d6b36ece51f2/CAC/CAC2/CAC%20SUBMISSION%20FINAL.ipynb
 
 
